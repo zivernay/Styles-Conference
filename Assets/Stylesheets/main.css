@@ -54,7 +54,7 @@ table {
 */
 body {
 	color: #888;
-	font 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -187,7 +187,9 @@ a {
 .hero p {
 	font-size: 24px;
 }
-
+.teaser a:hover h3 {
+	color: #a9b2b9;
+}
 
 /*
 =================================================
