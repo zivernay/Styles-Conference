@@ -137,6 +137,7 @@ h5 {
 	color:  #a9b2b9;
 	font-size: 14px;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 strong {
 	font-weight: 400;
@@ -165,11 +166,15 @@ em, cite {
 	Links
 =================================================
 */
+a {
+	color: #648880;
+	text-decoration: none;
+}
 a:hover {
 	color: #a9b2b9;
 }
-a {
-	color: #648880;
+p a {
+	border-bottom: #dfe2e5;
 }
 
 /*
@@ -180,6 +185,7 @@ a {
 .hero {
 	padding: 22px 80px 66px 80px;
 	line-height: 44px;
+	text-align: center;
 }
 .hero h2 {
 	font-size: 36px;
@@ -205,10 +211,13 @@ a {
 }
 .tagline {
 	margin: 66px 0 22px 0;
+	text-align: right;
 }
 .primary-nav {
 	font-size: 14px;
 	font-weight: 400;
+	letter-spacing: 0.5em;
+	text-transform: uppercase;
 }
 
 /*
@@ -225,4 +234,13 @@ a {
 .primary-footer > small {
 	float: left;
 	font-weight: 400;
+}
+
+/*
+=================================================
+	Navigation
+=================================================
+*/
+.nav {
+	text-align: right;
 }
